@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="java_study" target="24" />
+      <module name="java_study.main" target="24" />
+      <module name="java_study.test" target="24" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

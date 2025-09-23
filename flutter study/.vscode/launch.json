@@ -1,0 +1,446 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter",
+            "cwd": "flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "a11y_assessments",
+            "cwd": "flutter/dev/a11y_assessments",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "automated_tests",
+            "cwd": "flutter/dev/automated_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bots",
+            "cwd": "flutter/dev/bots",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "checks_tool",
+            "cwd": "flutter/dev/checks_tool",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "customer_testing",
+            "cwd": "flutter/dev/customer_testing",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "devicelab",
+            "cwd": "flutter/dev/devicelab",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "forbidden_from_release_tests",
+            "cwd": "flutter/dev/forbidden_from_release_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "manual_tests",
+            "cwd": "flutter/dev/manual_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "missing_dependency_tests",
+            "cwd": "flutter/dev/missing_dependency_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "packages_autoroller",
+            "cwd": "flutter/dev/packages_autoroller",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "snippets",
+            "cwd": "flutter/dev/snippets",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tools",
+            "cwd": "flutter/dev/tools",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tracing_tests",
+            "cwd": "flutter/dev/tracing_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "api",
+            "cwd": "flutter/examples/api",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_view",
+            "cwd": "flutter/examples/flutter_view",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hello_world",
+            "cwd": "flutter/examples/hello_world",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "image_list",
+            "cwd": "flutter/examples/image_list",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "layers",
+            "cwd": "flutter/examples/layers",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_channel",
+            "cwd": "flutter/examples/platform_channel",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_channel_swift",
+            "cwd": "flutter/examples/platform_channel_swift",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_view",
+            "cwd": "flutter/examples/platform_view",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "splash",
+            "cwd": "flutter/examples/splash",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "texture",
+            "cwd": "flutter/examples/texture",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter",
+            "cwd": "flutter/packages/flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_driver",
+            "cwd": "flutter/packages/flutter_driver",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_goldens",
+            "cwd": "flutter/packages/flutter_goldens",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_localizations",
+            "cwd": "flutter/packages/flutter_localizations",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_test",
+            "cwd": "flutter/packages/flutter_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_tools",
+            "cwd": "flutter/packages/flutter_tools",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_web_plugins",
+            "cwd": "flutter/packages/flutter_web_plugins",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "fuchsia_remote_debug_protocol",
+            "cwd": "flutter/packages/fuchsia_remote_debug_protocol",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "integration_test",
+            "cwd": "flutter/packages/integration_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "complex_layout",
+            "cwd": "flutter/dev/benchmarks/complex_layout",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "imitation_game_flutter",
+            "cwd": "flutter/dev/benchmarks/imitation_game_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "macrobenchmarks",
+            "cwd": "flutter/dev/benchmarks/macrobenchmarks",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "microbenchmarks",
+            "cwd": "flutter/dev/benchmarks/microbenchmarks",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_channels_benchmarks",
+            "cwd": "flutter/dev/benchmarks/platform_channels_benchmarks",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_views_layout",
+            "cwd": "flutter/dev/benchmarks/platform_views_layout",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_views_layout_hybrid_composition",
+            "cwd": "flutter/dev/benchmarks/platform_views_layout_hybrid_composition",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_integration",
+            "cwd": "flutter/dev/docs/platform_integration",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "renderers",
+            "cwd": "flutter/dev/docs/renderers",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "android_engine_test",
+            "cwd": "flutter/dev/integration_tests/android_engine_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "android_semantics_testing",
+            "cwd": "flutter/dev/integration_tests/android_semantics_testing",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "android_views",
+            "cwd": "flutter/dev/integration_tests/android_views",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "channels",
+            "cwd": "flutter/dev/integration_tests/channels",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "deferred_components_test",
+            "cwd": "flutter/dev/integration_tests/deferred_components_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "display_cutout_rotation",
+            "cwd": "flutter/dev/integration_tests/display_cutout_rotation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "external_textures",
+            "cwd": "flutter/dev/integration_tests/external_textures",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flavors",
+            "cwd": "flutter/dev/integration_tests/flavors",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_gallery",
+            "cwd": "flutter/dev/integration_tests/flutter_gallery",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hook_user_defines",
+            "cwd": "flutter/dev/integration_tests/hook_user_defines",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ios_app_with_extensions",
+            "cwd": "flutter/dev/integration_tests/ios_app_with_extensions",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ios_platform_view_tests",
+            "cwd": "flutter/dev/integration_tests/ios_platform_view_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "keyboard_hot_restart",
+            "cwd": "flutter/dev/integration_tests/keyboard_hot_restart",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "link_hook",
+            "cwd": "flutter/dev/integration_tests/link_hook",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "new_gallery",
+            "cwd": "flutter/dev/integration_tests/new_gallery",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_interaction",
+            "cwd": "flutter/dev/integration_tests/platform_interaction",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "release_smoke_test",
+            "cwd": "flutter/dev/integration_tests/release_smoke_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "spell_check",
+            "cwd": "flutter/dev/integration_tests/spell_check",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ui",
+            "cwd": "flutter/dev/integration_tests/ui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "web",
+            "cwd": "flutter/dev/integration_tests/web",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "web_compile_tests",
+            "cwd": "flutter/dev/integration_tests/web_compile_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "web_e2e_tests",
+            "cwd": "flutter/dev/integration_tests/web_e2e_tests",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "wide_gamut_test",
+            "cwd": "flutter/dev/integration_tests/wide_gamut_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "windows_startup_test",
+            "cwd": "flutter/dev/integration_tests/windows_startup_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "android_driver_extensions",
+            "cwd": "flutter/dev/tools/android_driver_extensions",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gen_defaults",
+            "cwd": "flutter/dev/tools/gen_defaults",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gen_keycodes",
+            "cwd": "flutter/dev/tools/gen_keycodes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "vitool",
+            "cwd": "flutter/dev/tools/vitool",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "test_private",
+            "cwd": "flutter/packages/flutter/test_private",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example",
+            "cwd": "flutter/packages/integration_test/example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "integration_test_macos",
+            "cwd": "flutter/packages/integration_test/integration_test_macos",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

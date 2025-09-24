@@ -1,0 +1,10 @@
+num1 = int(input("첫 번째 정수를 입력하세요: "))
+num2 = int(input("두 번째 정수를 입력하세요: "))
+
+print("두 수의 모든 연산을 시작하겠습니다. ")
+print("합은", num1 + num2)
+print("차는", num1 - num2)
+print("곱은", num1 * num2)
+print("평균은", int((num1 + num2) / 2))
+print("큰 수는", max(num1, num2))
+print("작은 수는", min(num1, num2))

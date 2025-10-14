@@ -12,11 +12,9 @@ void main() {
 
   var e = true; var f = false;
 
-  var orResult = e || f;  // or
   var andResult = e && f; // and
   var notResult = !e;    // not
 
-  print(orResult);
   print(andResult);
   print(notResult);
 
@@ -31,4 +29,5 @@ void main() {
       print(' ');
     }
   }
+  print(age);
 }

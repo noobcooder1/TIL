@@ -18,6 +18,11 @@ public class Car {
             speed = 240;
         }
 
+        public Car(String name, int price) {
+            this(name);
+            this.price = price;
+        }
+
         public Car(String name, int price, int speed) {
             this.name = name;
             this.price = price;

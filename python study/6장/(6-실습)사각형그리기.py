@@ -16,16 +16,16 @@ def drawSquare(size):
     t.left(gak)
 
 t.shape("turtle")
-t.pensize(6)
+t.pensize(2)
 
 t.penup()
 t.goto(0, 0)
 t.pendown()
 
-for i in range(360/gak): 
+for i in range(360): 
     t.pencolor(Colors[i % len(Colors)])
     drawSquare(size)
-
+    size += 5
 
 t.done()
     

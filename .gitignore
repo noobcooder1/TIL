@@ -6,6 +6,7 @@
 .idea/
 *.iml
 *.iws
+*.xml
 
 # Build output folders (optional but recommended)
 out/

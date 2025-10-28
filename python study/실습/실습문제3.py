@@ -21,22 +21,59 @@ def make_size():
     size = random.randint(10, 100)
     return size
 
+def make_color():
+    colors = ["red", "yellow", "green", "blue", "purple"]
+    color = random.choice(colors)
+    return color
 
-colors = ["red", "yellow", "green", "blue", "purple"]
+def pen_setting(make_start_x, make_start_y):
+    t.pensize(3)
+    t.penup()
+    t.goto(make_start_x, make_start_y)
+    t.pendown()
 
 shape = input("도형을 선택하세요 (원, 삼각형, 사각형, 오각형): ")
 
 if(shape == "원"):
-    color = random.choice(colors)
-    t.pensize(3)
-    t.penup()
-    t.goto(make_start_x(), make_start_y())
-    t.pendown()
-    t.circle(make_size())
-    t.fillcolor(color)
+    pen_setting(make_start_x(), make_start_y())
+    t.fillcolor(make_color())
     t.begin_fill()
+    t.circle(make_size())
     t.end_fill()
+    t.done()
     
+elif(shape == "삼각형"):
+    size = make_size()
+    pen_setting(make_start_x(), make_start_y())
+    t.fillcolor(make_color())
+    t.begin_fill()
+    for i in range(3):
+        t.forward(size)
+        t.left(360/3)
+    t.end_fill()
+    t.done()
 
+elif(shape == "사각형"):
+    size = make_size()
+    pen_setting(make_start_x(), make_start_y())
+    t.fillcolor(make_color())
+    t.begin_fill()
+    for i in range(4):
+        t.forward(size)
+        t.left(360/4)
+    t.end_fill()
+    t.done()
 
+elif(shape == "오각형"):
+    size = make_size()
+    pen_setting(make_start_x(), make_start_y())
+    t.fillcolor(make_color())
+    t.begin_fill()
+    for i in range(5):
+        t.forward(size)
+        t.left(360/5)
+    t.end_fill()
+    t.done()
 
+else:
+    print("도형을 잘못 입력하셨습니다. 다시 실행해주세요.")

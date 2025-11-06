@@ -1,4 +1,4 @@
-package ocjp문제들;
+package 자바문제들;
 
 
 class Product {

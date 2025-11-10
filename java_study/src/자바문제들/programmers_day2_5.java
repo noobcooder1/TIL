@@ -9,7 +9,7 @@ package 자바문제들;
 //        0 ≤ s ≤ my_string의 길이 - overwrite_string의 길이
 
 
-public class programmer_day2_5 {
+public class programmers_day2_5 {
     public String solution(String my_string, String overwrite_string, int s) {
         String answer = "";
         String main_string1 = my_string.substring(0, s);

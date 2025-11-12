@@ -3,13 +3,11 @@ package schoolStudy;
 import java.util.*;
 
 public class Car {
-    private int velocity;
     private String name;
     private int price;
     int speed;
 
-    public Car(int velocity, String name, int price, int speed) {
-        this.velocity = velocity;
+    public Car(String name, int price, int speed) {
         this.name = name;
         this.price = price;
         this.speed = speed;
@@ -25,18 +23,9 @@ public class Car {
         return name;
     }
 
-    public int setVelocity(int velocity) {
-        this.velocity = velocity;
-        return velocity;
-    }
-
     public int setPrice (int price) {
         this.price = price;
         return price;
-    }
-
-    public int getVelocity() {
-        return velocity;
     }
 
     public String getName() {

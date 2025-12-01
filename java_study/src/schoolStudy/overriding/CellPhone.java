@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.overriding;
 
 /* 부모 클래스의 생성자 상속
 자식 클래스의 인스턴스를 생성하려면 가장 먼저 부모클래스의 생성자 호출 -> 자식클래스의 생성자 호출

@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
   
 
   Widget createS8() {
-    return Center(child: Container(
+    return Center(child: SizedBox(
       width: 350,
       height: 350,
       child: Column(children: [

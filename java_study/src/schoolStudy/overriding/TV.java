@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.overriding;
 
 //실습 : 다음 TVMain class의 main() 메소드와 실행결과를 참고하여 TV클래스를 상속받은 ColorTV 클래스를 작성하라.
 //출력결과 : 32인치 1024컬러

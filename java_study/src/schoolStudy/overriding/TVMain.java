@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.overriding;
 
 public class TVMain {
     public static void main(String[] args) {

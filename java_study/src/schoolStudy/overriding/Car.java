@@ -1,6 +1,4 @@
-package schoolStudy;
-
-import java.util.*;
+package schoolStudy.overriding;
 
 public class Car {
     private String name;

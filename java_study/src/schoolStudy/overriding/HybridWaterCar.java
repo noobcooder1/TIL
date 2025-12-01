@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.overriding;
 
 public class HybridWaterCar extends HybridCar {
     private int water;

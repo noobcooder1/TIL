@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.overriding;
 
 abstract public class Calcu {
     protected int a;

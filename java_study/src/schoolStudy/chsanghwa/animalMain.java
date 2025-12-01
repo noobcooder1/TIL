@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.chsanghwa;
 
 public class animalMain {
     public static void main(String[] args) {

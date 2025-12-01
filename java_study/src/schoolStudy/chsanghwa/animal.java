@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.chsanghwa;
 
 /* 추상 메서드 : 메서드 선언만 통일하고 실행 내용은 실제 클래스마다 달라야 하는경우
     - abstract 키워드로 선언되고 중괄호가 없는 메소드(선어만하고 구현부가 없는 메소드)

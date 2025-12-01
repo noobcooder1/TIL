@@ -1,4 +1,5 @@
-package schoolStudy;
+package schoolStudy.overriding;
+
 
 public class calculaterMain {
     public static void main(String [] args) {

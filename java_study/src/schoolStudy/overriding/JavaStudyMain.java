@@ -1,4 +1,5 @@
-package schoolStudy;
+package schoolStudy.overriding;
+
 import java.util.Scanner;
 
 public class JavaStudyMain {

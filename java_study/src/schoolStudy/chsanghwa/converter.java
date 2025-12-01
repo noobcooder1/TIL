@@ -1,6 +1,6 @@
 //다음은 단위를 변환하는 추상클래스 Converter이다.
 
-package schoolStudy;
+package schoolStudy.chsanghwa;
 
 import java.util.Scanner;
 

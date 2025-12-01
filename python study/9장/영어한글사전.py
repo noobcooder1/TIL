@@ -1,5 +1,4 @@
-dict = {}
-dict["사랑"] = "love"
+dict = {"love" : "사랑"}
 
 def delete_word(num, dict):
     if num == 1:

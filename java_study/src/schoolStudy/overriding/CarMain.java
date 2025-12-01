@@ -1,4 +1,4 @@
-package schoolStudy;
+package schoolStudy.overriding;
 
 public class CarMain {
     public static void main(String[] args) {
